@@ -284,24 +284,3 @@ dex_import {
 	jars: ["proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar"],
 }
 
-prebuilt_etc_xml {
-	name: "qdcm_calib_data_hx8394F_HD720p_video_BOE",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "qdcm_calib_data_ili9881c_HD720p_video_Tianma",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "qdcm_calib_data_nt35521s_HD720p_video_EBBG",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml",
-	soc_specific: true,
-}
-
